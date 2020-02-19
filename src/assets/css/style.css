@@ -1,0 +1,18 @@
+
+
+*Add background img later*
+.bg {
+    background-image: url(../../images/dining-hallIMG.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity : 36%;
+    position : relative;
+    z-index: -2;
+}
+
+.header {
+    z-index : 0;
+}
+
