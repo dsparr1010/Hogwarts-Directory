@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const APIKEY = '$2a$10$ESohdZro8tdmBB7xSIQSfeOtWb2Ha3buYEpUkjkTYx9vlOE0b4tBC'
+const APIKEY = `${process.env.APIKEY}`
 
 export default {
     getAll: function() {
