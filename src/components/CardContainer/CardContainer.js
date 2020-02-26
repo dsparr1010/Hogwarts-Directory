@@ -4,8 +4,6 @@ import "./style.css";
 import Header from "../Header/Header";
 import SearchForm from '../SearchForm/SearchForm';
 import List from '../List/List';
-import WizardContext from '../../utils/WizardContext';
-import SearchResults from '../SearchResults/SearchResults';
 
 function CardContainer() {
   return (

@@ -6,14 +6,17 @@ function List() {
 
     useEffect(() => {
         API.getAll()
-        .then(res => setData(res.data));
+        .then(res => setData(res.data))
+        .catch(err=> {
+            console.log(err)
+        })
     }, []);
 
     return (
     <div className = 'col-8 card w-75'>
         <div className = 'card-body text-center'>
-            <h5>List of Characters Here</h5>
-                <ul className="list-group search-results">
+            <h5>List of Characters</h5>
+                <ul className="list-group">
                     {data.map(item => (
                         <li className = 'list-group-item row' key = {item.id}>
                             <h4 className = 'text-left card-content card-header'>{item.name}</h4>
