@@ -8,5 +8,8 @@ export default {
     },
     getCharacter : (searchValue) => {
         return axios.get(`https://www.potterapi.com/v1/characters/?key=${APIKEY}&name=${searchValue}`);
-      },
+    },
+    getHouse: (searchValue) => {
+        return axios.get(`https://www.potterapi.com/v1/characters/?key=${APIKEY}&house=${searchValue}`);
+    }
 }

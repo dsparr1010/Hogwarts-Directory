@@ -27,3 +27,6 @@ Front-end:
 npm install
 npm start
 ```
+
+## Link to Deployed Application on Heroku
+[https://intense-gorge-50268.herokuapp.com/]
